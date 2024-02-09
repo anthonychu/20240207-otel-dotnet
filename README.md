@@ -20,7 +20,7 @@ Modify the [config](env-enable-otel.json).
 
 Enable otel
 
-```
-az rest -m PATCH -u '/subscriptions/30501c6c-81f6-41ac-a388-d29cf43a020d/resourceGroups/test-aca-otel/providers/Microsoft.App/managedEnvironments/test-aca-otel?api-version=2023-11-02-preview' --body @env-enable.json
+```bash
+az rest -m PATCH -u "$ENVIRONMENT_ID?api-version=2023-11-02-preview" --body @env-enable.json
 ```
 
