@@ -1,0 +1,15 @@
+{
+  "properties": {
+    "openTelemetryConfiguration": {
+      "destinationsConfiguration": {
+        "dataDogConfiguration": {
+            "site": "us5.datadoghq.com",
+            "key": ""
+        }
+      },
+      "metricsConfiguration":{
+          "destinations": ["dataDog"]
+      }
+    }
+  }
+}
